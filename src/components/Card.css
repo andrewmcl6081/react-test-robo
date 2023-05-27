@@ -1,0 +1,26 @@
+.card {
+    background: rgb(117, 228, 195);
+    display: inline-block;
+    border-width: .25rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+    text-align: center;
+}
+
+.grow {
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+   
+.grow:hover,
+.grow:focus {
+    transform: scale(1.05);
+}
+  
+.grow:active {
+    transform: scale(.90);
+}

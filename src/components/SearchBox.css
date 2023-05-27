@@ -1,0 +1,11 @@
+.searchbox-container{
+    padding: 0.5rem;
+}
+
+.searchbox {
+    padding: 1rem;
+    border-style: solid;
+    border-color: #19a974;
+    background-color: #cdecff;
+}
+
